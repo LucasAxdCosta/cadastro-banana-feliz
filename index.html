@@ -20,6 +20,37 @@
                 </div>
                 <h1>Formulário de matrícula</h1>
                 <p>Preencha os dados abaixo para matricular seu macaquinho na escola de educação infantil Banana Feliz.</p>
+                <form method="post" enctype="multipart/form-data">
+                    <fieldset class="filhote-info">
+                        <legend>Informações do filhote</legend>
+                        <div class="caixa-info">
+                            <label for="nome">Nome Completo</label>
+                            <input id="nome" name="nome" type="text" placeholder="Nome filhote">
+                        </div>
+                        <div class="caixa-info">
+                            <label for="data-nasc">Data de nascimento</label>
+                            <input id="data-nasc" name="data-nasc" type="date" placeholder="dd/mm/aaaa">
+                        </div>
+                        <div class="caixa-sexo">
+                            <label for="sexo">Sexo</label>
+                            <select name="sexo" id="sexo">
+                                <option value="macho">Macho</option>
+                                <option value="femea">Fêmea</option>
+                                <option value="na">Prefiro não responder</option>
+                            </select>
+                        </div>
+                        <div class="caixa-texto">
+                            <label for="med-info">Informações médicas</label>
+                            <textarea id="med-info" name="med-info" cols="30" rows="10" placeholder="O filhote possui alguma condição médica específica?"></textarea>
+                        </div>
+                        <div class="caixa-drop">
+                            <label for="nasc-arquivo">Certidão de nascimento</label>
+                            <input type="file" id="nasc-arquivo" name="nasc-arquivo">
+                            <img src="images/icons/nuvem-upload.svg" alt="">
+                            <p>Clique aqui para selecionar os arquivos</p>
+                        </div>
+                    </fieldset>
+                </form>
             </div>
         </main>     
         <!----------------------------------------------------->

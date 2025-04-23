@@ -23,10 +23,6 @@ main{
         font: var(--titulo);
         margin-bottom: .5rem;
     }
-    & h2{
-        font: var(--titulo2);
-        margin-top: 2rem;
-    }
 }
 aside{
     background-color: var(--cor-bg-1);
