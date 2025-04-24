@@ -50,6 +50,5 @@ input[type="date"]{
 }
 select{
     background: url(../../images/icons/flecha-baixo.svg) no-repeat calc(100% - .75rem);
-
 }
 
