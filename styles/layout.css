@@ -7,26 +7,36 @@
 main{
     overflow: auto;
     padding: 4rem;
-    padding-top: 5rem;
 
     & .main-container{
         max-width: 40rem;
         margin-left: auto;
     }
-    & #voltar{
-        display: flex;
-        align-items: center;
-        gap: .5rem;
-        margin-bottom: 1.1rem;
-    }
     & h1{
         font: var(--titulo);
         margin-bottom: .5rem;
+    }
+    & a{
+        display: flex;
+        text-decoration: none;
+        gap: .2rem;
+        margin-bottom: 2.1rem;
+        color: var(--cor-texto-2);
+        max-width: 80px;
+    }
+    & a:hover{
+        transition: ease-in-out .2s;
+        color: var(--cor-marca);
+        & svg path{
+            transition: ease-in-out .2s;
+            fill: var(--cor-marca);
+        }
     }
 }
 aside{
     background-color: var(--cor-bg-1);
     padding: 4rem;
+    overflow: auto;
 
     & .aside-container{
         max-width: 40rem;

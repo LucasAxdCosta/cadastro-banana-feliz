@@ -14,10 +14,10 @@
         <!---------------------------------------------------->
         <main>
             <div class="main-container">
-                <div id="voltar">
-                    <img src="images/icons/flecha-esquerda.svg" alt="">
+                <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#8f8881" viewBox="0 0 256 256"><path d="M224,128a8,8,0,0,1-8,8H59.31l58.35,58.34a8,8,0,0,1-11.32,11.32l-72-72a8,8,0,0,1,0-11.32l72-72a8,8,0,0,1,11.32,11.32L59.31,120H216A8,8,0,0,1,224,128Z"></path></svg>
                     Voltar
-                </div>
+                </a>
                 <h1>Formulário de matrícula</h1>
                 <p>Preencha os dados abaixo para matricular seu macaquinho na escola de educação infantil Banana Feliz.</p>
                 <form method="post" enctype="multipart/form-data">
@@ -28,7 +28,7 @@
                             <input id="nome" name="nome" type="text" placeholder="Nome filhote">
                         </div>
                         <div class="caixa-info">
-                            <label for="data-nasc">Data de nascimento</label>
+                            <label for="data-nasc" id="label-data">Data de nascimento</label>
                             <input id="data-nasc" name="data-nasc" type="date" placeholder="dd/mm/aaaa">
                         </div>
                         <div class="caixa-sexo">
@@ -41,13 +41,15 @@
                         </div>
                         <div class="caixa-texto">
                             <label for="med-info">Informações médicas</label>
-                            <textarea id="med-info" name="med-info" cols="30" rows="10" placeholder="O filhote possui alguma condição médica específica?"></textarea>
+                            <textarea id="med-info" name="med-info" cols="30" rows="5" placeholder="O filhote possui alguma condição médica específica?"></textarea>
                         </div>
                         <div class="caixa-drop">
                             <label for="nasc-arquivo">Certidão de nascimento</label>
-                            <input type="file" id="nasc-arquivo" name="nasc-arquivo">
-                            <img src="images/icons/nuvem-upload.svg" alt="">
-                            <p>Clique aqui para selecionar os arquivos</p>
+                            <div class="areadrop">
+                                <input type="file" id="nasc-arquivo" name="nasc-arquivo">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" fill="#8f8881" viewBox="0 0 256 256"><path d="M178.34,165.66,160,147.31V208a8,8,0,0,1-16,0V147.31l-18.34,18.35a8,8,0,0,1-11.32-11.32l32-32a8,8,0,0,1,11.32,0l32,32a8,8,0,0,1-11.32,11.32ZM160,40A88.08,88.08,0,0,0,81.29,88.68,64,64,0,1,0,72,216h40a8,8,0,0,0,0-16H72a48,48,0,0,1,0-96c1.1,0,2.2,0,3.29.12A88,88,0,0,0,72,128a8,8,0,0,0,16,0,72,72,0,1,1,100.8,66,8,8,0,0,0,3.2,15.34,7.9,7.9,0,0,0,3.2-.68A88,88,0,0,0,160,40Z"></path></svg>
+                                <p>Clique aqui para selecionar os arquivos</p>
+                            </div>
                         </div>
                     </fieldset>
                 </form>

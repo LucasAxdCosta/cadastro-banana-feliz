@@ -6,6 +6,7 @@
 :root{
     /* cores */
     --cor-marca: #F3541C;
+    --cor-marca-2: #f3551c17;
     --cor-texto-1: #292524;
     --cor-texto-2: #57534E;
     --cor-texto-3: #8F8881;
@@ -16,6 +17,7 @@
     /* fontes */
     --font-family: "Poppins", sans-serif;
     --texto: 400 1rem/1.5 var(--font-family);
+    --texto-p: 400 .8rem/1.5 var(--font-family);
     --titulo: 600 2.5rem/1.25 var(--font-family);
     --titulo2: 600 1.5rem/1.25 var(--font-family);
 }
