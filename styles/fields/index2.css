@@ -12,7 +12,8 @@ label{
     font: var(--texto);
     color: var(--cor-texto-2);
     display: block;
-    margin-bottom: .3rem;
+    margin-bottom: .2rem;
+    margin-left: 2px;
 }
 #label-data{
     display: inline;
@@ -51,4 +52,23 @@ input[type="date"]{
 select{
     background: url(../../images/icons/flecha-baixo.svg) no-repeat calc(100% - .75rem);
 }
-
+#textolabel{
+    font: var(--texto-p);
+    margin-left: 3px;
+}
+input{
+    &:invalid{
+        border: 2px solid var(--cor-erro);
+    }
+    &[required] + #emailerror{
+        display: flex;
+        align-items: center;
+        margin-top: .1rem;
+        gap: .2rem;
+        font: var(--texto-p);
+        color: var(--cor-erro);
+    }
+    &:not(:focus):valid + #emailerror{
+        display: none;
+    }
+}

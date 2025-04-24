@@ -19,7 +19,7 @@
         background-color: var(--cor-marca-2);
         color: var(--cor-texto-1);
         & svg path{
-            transition: ease-in-out .3s;
+            transition: ease-in-out .2s;
             fill: var(--cor-marca);
         }
     }

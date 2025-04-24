@@ -38,7 +38,6 @@ img{
     "A A B"
     "C C D";
     gap: 1rem;
-    overflow: auto;
     & #rua1{
         grid-area: A;
     }
