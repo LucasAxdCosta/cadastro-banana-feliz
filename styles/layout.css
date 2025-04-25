@@ -1,15 +1,18 @@
 #app{
     display: grid;
-    grid-template-columns: 55% 45%;
+    grid-template-columns: 50% 50%;
     height: 100vh;
     overflow: hidden;
+    & p{
+        color: var(--cor-texto-1);
+    }
 }
 main{
     overflow: auto;
     padding: 4rem;
 
     & .main-container{
-        max-width: 40rem;
+        max-width: 45rem;
         margin-left: auto;
     }
     & h1{
@@ -39,7 +42,7 @@ aside{
     overflow: auto;
 
     & .aside-container{
-        max-width: 40rem;
+        max-width: 45rem;
     }
     & h1{
         font: var(--titulo);

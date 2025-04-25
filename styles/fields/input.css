@@ -2,7 +2,8 @@ input, textarea, select{
     appearance: none;
     width: 100%;
     border-radius: .5rem;
-    border: 1px solid var(--cor-texto-3);
+    border: 2px solid transparent;
+    outline: 1px solid var(--cor-texto-3);
     padding: .75rem 1rem;
     font: var(--texto-p);
 }
@@ -28,7 +29,7 @@ textarea:focus,
 input[type="date"]:focus-within {
     transition: ease-in-out .2s;
     outline: .2rem solid var(--cor-bg-1);
-    border: .1rem solid var(--cor-marca);
+    border-color: var(--cor-marca);
 }
 
 input[type="date"]{

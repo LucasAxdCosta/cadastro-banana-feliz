@@ -1,5 +1,6 @@
 .areadrop{
-    border: 1px dashed var(--cor-texto-2);
+    border: 2px dashed transparent;
+    outline: 1px dashed var(--cor-texto-2);
     border-radius: .25rem;
     display: grid;
     justify-items: center;
@@ -14,7 +15,7 @@
         opacity: 0;
     }
     &:hover, &:has(input:focus){
-        border-width: 2px;
+        outline-width: 0;
         border-color: var(--cor-marca);
         background-color: var(--cor-marca-2);
         color: var(--cor-texto-1);

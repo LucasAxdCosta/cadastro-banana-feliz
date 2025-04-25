@@ -16,3 +16,8 @@ legend{
 fieldset + fieldset{
     margin-top: 3rem;
 }
+.caixa-acoes{
+    display: flex;
+    margin-top: 4rem;
+    gap: .8rem;
+}

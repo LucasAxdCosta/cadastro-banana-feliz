@@ -1,0 +1,17 @@
+button{
+    all:unset;
+    font: var(--texto);
+    border: 1px solid var(--cor-marca);
+    padding: .7rem 1.5rem;
+    border-radius: .7rem;
+    position: relative;
+    cursor: pointer;
+}
+.segundo{
+    color: var(--cor-marca);
+    margin-left: auto;
+}
+.primeiro{
+    color: white;
+    background-color: var(--cor-marca);
+}
