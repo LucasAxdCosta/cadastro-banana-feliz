@@ -11,6 +11,7 @@ label + .caixa-radio{
     border-radius: .5rem;
     display: grid;
     justify-items: center;
+    text-align: center;
     gap: .5rem;
     padding: 2rem .5rem 2rem;
     position: relative;
@@ -42,4 +43,12 @@ label + .caixa-radio{
             background-image: url(../../images/icons/check3.svg);
         }
     }
+}
+#atividades{
+    width: 50px;
+    height: 50px;
+}
+#atividades2{
+    width: 70px;
+    height: 70px;
 }
