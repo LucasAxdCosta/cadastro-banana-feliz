@@ -1,7 +1,7 @@
 # Formulário de matrícula
 Este é um projeto que busca criar um cadastro padrão, no exemplo em questão para uma escola primária.<br>
 Usei do chatgpt para criação da imagem localizada no aside e em alguns icones.<br>
-O projeto é uma forma de aplicar o conhecimento sobre o forms do HTML5, junto de varias utilizades do CSS3.<br>
+O projeto é uma forma de aplicar o conhecimento sobre o forms do HTML5, junto de varias utilidades do CSS3.<br>
 O site conta com campos como:
 - Nome completo
 - Envio de documento
